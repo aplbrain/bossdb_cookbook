@@ -2,8 +2,9 @@ name: cookbook-environment
 dependencies:
   - python=3.6 
   - pip
-  - torchvision
-  - torch
-  - intern
-  - matplotlib
+  - pip:
+      - torchvision
+      - torch
+      - intern
+      - matplotlib
 
