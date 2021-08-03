@@ -18,9 +18,12 @@ Our public datasets have an example of how to access their data using [intern](h
 
 - [How To Find The BossDB URI For A Dataset](https://github.com/aplbrain/bossdb_cookbook/blob/main/How-To-Find-The-BossDB-URI-For-A-Dataset.md)
 
+You may wish to access your own private data that is hosted on BossDB or someone has shared not-yet-public data with you:
+- [How To Access Private Data](https://github.com/aplbrain/bossdb_cookbook/blob/main/BossDB-Set-Up-For-Private-Datasets.md)
 
 ### Jupyter Notebooks
 In the `notebooks` folder we have jupyter notebooks with more advanced examples of interacting with the BossDB system
 
+- [Five Minute Jumpstart](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Five-Minute-Jumpstart.ipynb)
 - [Advanced Getting Started](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Get-Started-Downloading-Data-with-Intern.ipynb)
 - [Custom Dataset Classes for Pytorch](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/BossDB-Dataset-Classes-for-Pytorch-DataLoaders.ipynb)
