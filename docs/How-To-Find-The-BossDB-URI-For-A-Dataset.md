@@ -5,7 +5,9 @@ In order to access a specific dataset from BossDB, you will need to know the URI
 
 ### What is a BossDB URI?
 
-A BossDB URI is made up of the Collection, Experiment, and Channel information of the dataset in the following format: `bossdb://collection/experiment/channel`
+In BossDB, we have an hierarchical organizational structure (similar to file system) where we organize datasets by "collection", "experiment", and "channel". Collections are the top structure containing metadata like the lab name and date of creation. Experiments are middle-level structure containing more metadata about coordinate frames (where data exists), resolution levels, voxel size. Channels are the lowest structure and the ones that actually contain volumetric data.
+
+A BossDB URI is made up of the "collection", "experiment", and "channel" information of the dataset in the following format: `bossdb://collection/experiment/channel`
 
 For example, the BossDB URI for the electron microscopy dataset from Dataset 1 of the Witvliet et al. 2020 project is  `bossdb://witvliet2020/Dataset_1/em` where `witvliet2020` is the collection name, `Dataset_1` refers to the experiment name, and `em` is the channel name. 
 
