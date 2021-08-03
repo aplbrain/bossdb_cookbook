@@ -13,17 +13,16 @@ There are two main ways to upload data onto bossDB:
 
 Typically we use intern for anything smaller than 25 GB of data. If we are uploading anything larger than that, we set up an ingest job using the ingest client to handle the upload. Please contact us if you have a particularly large dataset to upload so we can help with the ingest. 
 
-You can view a video version of this tutorial [here](https://youtu.be/gbbfWDThELU).
 
 ## Setting up resources
 
 Just like how we need a collection, experiment, and channel to download data,  we need to create a new collection, experiment, and channel to upload data. 
 
-You can do this through `intern` directly or through the management console. We recommend using the managment console for set up if only uploading a single or a few datasets at a time. 
+There are also two ways to set up a resource. You can do this through `intern` directly or through the management console. We recommend using the managment console for set up if only uploading a single or a few datasets at a time. 
 
 Please view the [API documentation](https://docs.theboss.io/docs/list-collections) for more detailed information!
 
---
+
 Before uploading data, we first need to determine some information about our new dataset:
 
 **Collection Name:**
@@ -53,7 +52,7 @@ The channel name must be unique within the specific experiment. This should indi
 
 You will need to know the voxel size of your dataset, if the data is isotropic or anisotropic, as well as the voxel unit (e.g. nanometers). 
 
---
+
 ### Using the management console to set up a resource
 
 Navigate to the management console website and log in: https://api.bossdb.io/
@@ -111,6 +110,8 @@ Using intern we can set up some metadata for the dataset and fill in more inform
 - the coordinate frame (`extents`) we expect the data to fill (z, y, x order)
 - the voxel sizes (`voxel_size`) (z, y, x, order)
 - and we indicate that we are creating a new dataset (`create_new=True`)
+
+You can view a video version of using intern to set up a resource [here](https://youtu.be/gbbfWDThELU).
 
 ```python
 from intern import array
