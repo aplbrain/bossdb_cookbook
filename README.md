@@ -39,3 +39,4 @@ In the `notebooks` folder we have jupyter notebooks with more advanced examples 
 - [Five Minute Jumpstart](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Five-Minute-Jumpstart.ipynb)
 - [Advanced Getting Started](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Get-Started-Downloading-Data-with-Intern.ipynb)
 - [Custom Dataset Classes for Pytorch](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/BossDB-Dataset-Classes-for-Pytorch-DataLoaders.ipynb)
+- [Accessing Downsampled Versions of Data on BossDB](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Accessing-Lower-Resolution-Versions-Of-Data-From-BossDB.ipynb)
