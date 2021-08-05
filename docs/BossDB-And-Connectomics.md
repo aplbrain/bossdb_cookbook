@@ -1,6 +1,6 @@
 # Introduction to the world of connectomics and BossDB
 
-This file should serve as a quick introduction to some of the more common and fundamental concepts in the field of connectomics and how it relates to our goals at BossDB. 
+Here we provide a quick introduction to some of the more common and fundamental concepts in the field of connectomics and how it relates to our goals at BossDB. 
 
 
 ## What is connectomics? Why is it important?

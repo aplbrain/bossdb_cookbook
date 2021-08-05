@@ -12,6 +12,9 @@ For a quick introduction to BossDB, check out our [Getting Started Page](https:/
 
 Click here for a Binder of this repository and test out our notebooks in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aplbrain/bossdb_cookbook/HEAD?filepath=notebooks%2F)
 
+## Docs
+In the `docs` folder we have markdown files with detailed documentation on various topics.
+
 ### Accessing Data
 
 Our public datasets have an example of how to access their data using [intern](https://github.com/jhuapl-boss/intern) at the top of their [project page](https://bossdb.org/projects), however many datasets have more data available than shown in that example, such as additional segmentations or scans. To access these datasets you will need to know the dataset URI. 
@@ -21,7 +24,16 @@ Our public datasets have an example of how to access their data using [intern](h
 You may wish to access your own private data that is hosted on BossDB or someone has shared not-yet-public data with you:
 - [How To Access Private Data](https://github.com/aplbrain/bossdb_cookbook/blob/main/docs/BossDB-Set-Up-For-Private-Datasets.md)
 
-### Jupyter Notebooks
+### Uploading Data
+
+Are you enjoying how easy BossDB makes it to use our publicly hosted data and want to upload your own? 
+- [How To Upload Data To BossDB](https://github.com/aplbrain/bossdb_cookbook/blob/main/docs/How-To-Upload-Data-To-BossDB.md)
+
+### Where does BossDB fit in the Neuroscience World?
+
+- [BossDB and Connectomics](https://github.com/aplbrain/bossdb_cookbook/blob/main/docs/BossDB-And-Connectomics.md)
+
+## Jupyter Notebooks
 In the `notebooks` folder we have jupyter notebooks with more advanced examples of interacting with the BossDB system
 
 - [Five Minute Jumpstart](https://github.com/aplbrain/bossdb_cookbook/blob/main/notebooks/Five-Minute-Jumpstart.ipynb)
