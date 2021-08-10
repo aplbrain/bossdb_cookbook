@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" height = '300px'>
+  <img src="bossdbcookbook.png" height = '300px'>
 </div>
 
 # [BossDB](https://bossdb.org/) Cookbook: How-tos and Examples for using BossDB
