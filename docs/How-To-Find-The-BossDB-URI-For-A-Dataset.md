@@ -1,6 +1,6 @@
 # How to find the BossDB URI for a specific dataset
 
-In order to access a specific dataset from BossDB, you will need to know the URI (Uniform Resource Locator) of the dataset in the BossDB system. 
+In order to access a specific dataset from BossDB, you will need to know the URI (Uniform Resource Identifier) of the dataset in the BossDB system. 
 
 
 ### What is a BossDB URI?
