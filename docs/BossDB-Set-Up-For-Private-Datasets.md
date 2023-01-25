@@ -10,7 +10,7 @@ To create an account, navigate to [api.bossdb.io](api.bossdb.io). You will be pr
 
 I recommend taking the tour of the management console by clicking the **Tour** button at the top right of the page. 
 
-## [Boss Mangement Console](https://api.bossdb.io/v1/mgmt/)
+## [Boss Management Console](https://api.bossdb.io/v1/mgmt/)
 
 The boss management console will show you which datasets you have access to and which permissions groups you belong to. 
 

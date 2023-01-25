@@ -1,7 +1,7 @@
 # IARPA MICrONS Pinky 100 Dataset
 
 
-This dataset was collected as part of the [Machine Intelligenece from Cortical Networks (MICrONS)](https://www.iarpa.gov/index.php/research-programs/microns) project, which seeks to revolutionize machine learning by reverse-engineering the algorithms of the brain.
+This dataset was collected as part of the [Machine Intelligence from Cortical Networks (MICrONS)](https://www.iarpa.gov/index.php/research-programs/microns) project, which seeks to revolutionize machine learning by reverse-engineering the algorithms of the brain.
 
 
 This dataset consists of Electron Microscopy (EM) image data, segmentation data, and corresponding meshes of the cortical circuitry from the mouse visual cortex. This dataset was acquired and analyzed in the initial phase of the MICrONS project. It is a 250 x 140 x 90 µm volume from layer 2/3 of a P36 male mouse visual cortex imaged at 3.58 x 3.58 x 40 nm resolution with a dense segmentation, proofreading of all dendrites and axons of the 364 excitatory neurons in the volume, and dense synapse detection.

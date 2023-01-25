@@ -18,7 +18,7 @@ Typically we use intern for anything smaller than 25 GB of data. If we are uploa
 
 Just like how we need a collection, experiment, and channel to download data,  we need to create a new collection, experiment, and channel to upload data. 
 
-There are also two ways to set up a resource. You can do this through `intern` directly or through the management console. We recommend using the managment console for set up if only uploading a single or a few datasets at a time. 
+There are also two ways to set up a resource. You can do this through `intern` directly or through the management console. We recommend using the management console for set up if only uploading a single or a few datasets at a time. 
 
 Please view the [API documentation](https://docs.theboss.io/docs/list-collections) for more detailed information!
 
@@ -42,7 +42,7 @@ Most of the fields for a coordinate frame are pretty self-explanatory but there 
 
 **Experiment Name:**
 
-The experiment name must be unique to the specfic collection. This might be the name for a particular subject (e.g. mouse_1) as the channels within the experiment should all be co-registered data.
+The experiment name must be unique to the specific collection. This might be the name for a particular subject (e.g. mouse_1) as the channels within the experiment should all be co-registered data.
 
 **Channel Name:**
 
@@ -59,7 +59,7 @@ Navigate to the management console website and log in: https://api.bossdb.io/
 
 *Step 1: Collection Name and Description*
 
-Once there, you can click "Manage Resources" and then "Add Collection". A modal will pop up where you can fill in the Collection name and a short description. You can also decide to make the datset public or not.
+Once there, you can click "Manage Resources" and then "Add Collection". A modal will pop up where you can fill in the Collection name and a short description. You can also decide to make the dataset public or not.
 
 Once you've created the collection, find your collection name and click the "Details" button to the right of the name. (You might have to filter by the name or scroll through some pages to find the collection you created). 
 
@@ -82,8 +82,8 @@ A modal will pop up with a form to fill out.
 - Add the name and a short description of the experiment.
 - Provide the name of the coordinate frame you just created.
 - Num hierarchy levels lets bossDB know how many levels of downsample this dataset should have.
-- Heirarchy method is either isotropic or anisotropic and it will depend on your dataset voxel resolution
-- num time samples is relevent if using timeseries data otherwise it is 1. 
+- Hierarchy method is either isotropic or anisotropic and it will depend on your dataset voxel resolution
+- num time samples is relevant if using timeseries data otherwise it is 1. 
 - time step information is only relevant if timeseries data and can be left empty
 
 Similar to collection, you can click the "Details" button on the experiment and scroll down to permissions
