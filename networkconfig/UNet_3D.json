@@ -1,0 +1,31 @@
+{
+    "optimizer": "SGD",
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "learning_rate": 0.01,
+    "epochs": 5,
+    "batch_size": 1,
+
+    "augmentations": 0,
+
+    "model": "UNet",
+
+    "encoder_name": "resnet18",        
+    "encoder_weights": "imagenet",     
+    "in_channels": 1,
+    "classes": 2,
+    "n_blocks": 4,
+    "start_filters": 32,
+    "activation": "relu",
+    "normalization": "batch",
+    "conv_mode": "same",
+    "dim": 3,
+
+    "outputdir": "outputs",
+    "outweightfilename": "UNet_3D",
+
+    "eval_threshold": 0.5,
+    "eval_reduction": "None",
+
+    "seed":0
+}

@@ -1,0 +1,32 @@
+{
+    "optimizer": "Adam",
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "learning_rate": 0.0001,
+    "epochs": 10,
+    "batch_size": 8,
+
+    "augmentations": 0,
+
+    "model": "UNet",
+    "model_type": "unet",
+
+    "encoder_name": "resnet18",        
+    "encoder_weights": "imagenet",     
+    "in_channels": 1,
+    "classes": 2,
+    "n_blocks": 4,
+    "start_filters": 32,
+    "activation": "relu",
+    "normalization": "batch",
+    "conv_mode": "same",
+    "dim": 2,
+
+    "outputdir": "outputs",
+    "outweightfilename": "UNet_2D",
+
+    "eval_threshold": 0.5,
+    "eval_reduction": "None",
+
+    "seed":0
+}
